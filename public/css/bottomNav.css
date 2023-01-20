@@ -41,7 +41,7 @@
 }
 
 
-@media(min-width:769px){
+@media screen and (min-width:1024px){
   .section__nav__mobile{
     display: none;
   }

@@ -161,13 +161,14 @@ body {
   width: 120px;
   height: 30px;
 }
-
+/* --------------------MOBILE------------------------------ */
 @media screen and (max-width:767px){
   .FirstOffer{
     width: 47%;
   }
 
 }
+/* ----------------------TABLETS----------------------------- */
 @media screen and (min-width:767px) and (max-width:1023px) {
   .FirstOffer{
     width: 30%;
@@ -188,6 +189,7 @@ body {
   
 
 }
+/* -------------------------DESKTOP------------------------------ */
 @media screen and (min-width:1024px) {
   .FirstOffer{
     width: 20%;
