@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header__account span{
+  display: none;
+}
+body {
+  background-color: rgba(237, 236, 236, 0.426);
+  font-family:"Roboto", sans-serif;
+}
+.section-title{
+  margin-top: 20px;
+  font-weight: bold;
+
+  text-align: center;
+}
+.InitialPromotion img {
+  width: 100%;
+}
+.main_paymentmethods{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.paymentmethods{
+  width: 90%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #315ed1;
+  background-color: #fff;
+  box-shadow: 1px 1px 3px rgba(162, 162, 162, 0.384);
+}
+.paymentmethods .color{
+  color: #315ed1;
+}
+.paymentmethods .pay__icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:1px solid #315ed1;
+  border-radius: 25px;
+  width: 45px;
+  height: 45px;
+}
+.CarrusselSection {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+.CarrusselSection::-webkit-scrollbar{
+  display: none;
+}
+.FirstOffer h3 {
+  font-size: small;
+  text-align: center;
+}
+.producTittle {
+  text-align: center;
+  font-size: medium;
+  margin-top: 10px;
+}
+.line {
+  width: 80%;
+  margin: 10px 10% 0 10%;
+}
+.FirstOffer {
+  flex: 1 0 auto;
+  background-color: #fff;
+  width: 47%;
+  outline: none;
+  gap: 20px;
+  margin: 0 5px 0 5px;
+  padding: 2px;
+  height: 40vh;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.384);
+  text-decoration: none;
+}
+
+.imagecarrussel {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.imagecarrussel img {
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.Imagetext {
+  text-align: center;
+}
+.FirstOffer .Imagetext .Price {
+  color: #315ed1;
+  font-weight: 900;
+  padding-bottom: 5px;
+}
+.FirstOffer .Imagetext .Photo{
+  color: #000000;
+}
+.FirstOffer .Imagetext .Delivery{
+  font-size: 15px;
+  color: rgb(101, 97, 235);
+}
+.section-categories{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+  background-color: #fff;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.384);
+  border-radius:5px ;
+}
+.section-categories .categories{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  border-radius: 5px;
+  text-align: center;
+  flex-direction: column;
+  color: #000000;
+}
+.categories-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color :#ebebeb;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.section-categories svg{
+  width: 24px;
+  height: 24px;
+
+}
+.categories-seemore button{
+  border: none;
+  margin-top: 10px;
+  background-color: #315ed1;
+  border-radius: 5px;
+  color: #fff;
+  width: 120px;
+  height: 30px;
+}
+
+@media(min-width:361px){
+  .FirstOffer{
+    width: 40%;
+  }
+  .section-categories{
+    gap: 0;
+  }
+  .section-categories .categories{
+    width: 50%;
+    
+  }
+  .section-categories .categories-seemore{
+    width: 100%;
+  }
+  .FirstOffer{
+    width: 30%;
+  }
+  
+}
+
+@media(min-width:769px){
+
+  .FirstOffer{
+    width: 20%;
+  }
+  .section-categories .categories{
+    width: 25%;
+    
+  }
+
+}
+
