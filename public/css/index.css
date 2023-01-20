@@ -162,9 +162,9 @@ body {
   height: 30px;
 }
 
-@media(min-width:390px){
+@media(min-width:400px){
   .FirstOffer{
-    width: 40%;
+    width: 47%;
   }
   .section-categories{
     gap: 0;
