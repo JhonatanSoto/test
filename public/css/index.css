@@ -162,7 +162,7 @@ body {
   height: 30px;
 }
 
-@media(min-width:361px){
+@media(min-width:390px){
   .FirstOffer{
     width: 40%;
   }
