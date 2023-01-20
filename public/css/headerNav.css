@@ -45,7 +45,12 @@
 .account__icon {
   color: rgb(255, 255, 255);
 }
-@media(min-width:769px){
+@media screen and (min-width:767px) and (max-width:1023px){
+
+
+}
+
+@media screen and (min-width:1024px){
   .container-header {
     height: 10vh;
     display: flex;
@@ -160,10 +165,6 @@ text-decoration: none;
   text-decoration: none;
   color: #fff;
 }
-
-}
-
-@media(min-width:1068px){
   
   .title_and_logo h1{
     font-size: 40px;

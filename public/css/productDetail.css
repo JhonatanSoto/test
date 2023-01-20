@@ -230,7 +230,7 @@ main h2{
 }
 
 /*--------------------Tablet--------------------- */
-@media(min-width:361px){
+@media screen and (max-width:767px){
     .section__description{
         width: 100%;
         margin: auto;
@@ -268,7 +268,7 @@ main h2{
 
 }
 /* -----------------------Desktop---------------- */
-@media(min-width:769px){
+@media screen and (min-width:767px) and (max-width:1023px){
     .main-container{
         display:grid;
         grid-template-columns: 32% 32% 32%;
